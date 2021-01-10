@@ -1,0 +1,36 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'RNWatermelonDemo' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  target 'RNWatermelonDemoTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+  
+  # Watermelon DB, the build will fail due to an issue with React Native's Pods
+  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi', :modular_headers => true
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_flipper!
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
+end
+
+target 'RNWatermelonDemo-tvOS' do
+  # Pods for RNWatermelonDemo-tvOS
+
+  target 'RNWatermelonDemo-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
