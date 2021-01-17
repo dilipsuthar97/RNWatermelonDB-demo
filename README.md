@@ -8,11 +8,11 @@ A simple project about how you can integrate WatermelonDB in your React Native p
 ## 📸 Preview
 
 <p align="center">
-    <img src="https://github.com/dilipsuthar1997/RNWatermelonDB-demo/blob/master/screenshot/1.png" width="200" height="400" alt="ss_1">
-    <img src="https://github.com/dilipsuthar1997/RNWatermelonDB-demo/blob/master/screenshot/2.png" width="200" height="400" alt="ss_2">
-    <img src="https://github.com/dilipsuthar1997/RNWatermelonDB-demo/blob/master/screenshot/3.png" width="200" height="400" alt="ss_3">
-    <img src="https://github.com/dilipsuthar1997/RNWatermelonDB-demo/blob/master/screenshot/4.png" width="200" height="400" alt="ss_4">
-    <img src="https://github.com/dilipsuthar1997/RNWatermelonDB-demo/blob/master/screenshot/5.png" width="200" height="400" alt="ss_5">
+    <img src="https://github.com/dilipsuthar97/RNWatermelonDB-demo/blob/master/screenshot/1.png" width="200" height="400" alt="ss_1">
+    <img src="https://github.com/dilipsuthar97/RNWatermelonDB-demo/blob/master/screenshot/2.png" width="200" height="400" alt="ss_2">
+    <img src="https://github.com/dilipsuthar97/RNWatermelonDB-demo/blob/master/screenshot/3.png" width="200" height="400" alt="ss_3">
+    <img src="https://github.com/dilipsuthar97/RNWatermelonDB-demo/blob/master/screenshot/4.png" width="200" height="400" alt="ss_4">
+    <img src="https://github.com/dilipsuthar97/RNWatermelonDB-demo/blob/master/screenshot/5.png" width="200" height="400" alt="ss_5">
 </p>
 
 ## 🚀 Run Demo
